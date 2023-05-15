@@ -1,7 +1,7 @@
 import { ReactNode, createContext, useContext, useState } from "react";
 import ShoppingCart from "../components/ShoppingCart";
 import { useLocalStorage } from "../hooks/useLocalSrorage";
-import React from "react";
+
 
 const ShoppingCartContext = createContext({} as ShoppingCartContext);
 
